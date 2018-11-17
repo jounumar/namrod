@@ -238,7 +238,7 @@ client.on('message', async msg => {
 		if (serverQueue && !serverQueue.playing) {
 			serverQueue.playing = true;
 			serverQueue.connection.dispatcher.resume();
-            return msg.channel.send('تم التشغيل');
+            return msg.channel.send('تم التشغيل يأنبضي');
             
 		}
 		return msg.channel.send('Queue is empty!');
